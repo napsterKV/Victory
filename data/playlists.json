@@ -1,0 +1,445 @@
+{
+  "message": "Ritstjórinn velur",
+  "playlists": {
+    "href": "https://api.spotify.com/v1/browse/featured-playlists?timestamp=2021-05-01T08%3A22%3A36&offset=0&limit=20",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "It's the day after and the last thing you need is loud noises.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWUGsgkESc7qP"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUGsgkESc7qP",
+        "id": "37i9dQZF1DWUGsgkESc7qP",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003b0cdd83e7f214cb6d884f0dd",
+            "width": null
+          }
+        ],
+        "name": "Hangover Friendly",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzMzNiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUGsgkESc7qP/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWUGsgkESc7qP"
+      },
+      {
+        "collaborative": false,
+        "description": "New age music for balancing mind and body.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX9uKNf5jGX6m"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9uKNf5jGX6m",
+        "id": "37i9dQZF1DX9uKNf5jGX6m",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000034ba00eaa7b36e3001a201f8f",
+            "width": null
+          }
+        ],
+        "name": "Yoga & Meditation",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxODMxMTM2MiwwMDAwMDA3OTAwMDAwMTc4Y2FkZmI4MGQwMDAwMDE2ZDE1MzJkNWUy",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9uKNf5jGX6m/tracks",
+          "total": 206
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX9uKNf5jGX6m"
+      },
+      {
+        "collaborative": false,
+        "description": "That special feeling of being calm, happy and relaxed at the same time.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4bSrsRWE9cd"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4bSrsRWE9cd",
+        "id": "37i9dQZF1DX4bSrsRWE9cd",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003e05418b847fe9720badea0e5",
+            "width": null
+          }
+        ],
+        "name": "Bliss",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM0OCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4bSrsRWE9cd/tracks",
+          "total": 73
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX4bSrsRWE9cd"
+      },
+      {
+        "collaborative": false,
+        "description": "Listen to easy songs from your favorite artists! Cover: Adele",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWTwnEm1IYyoj"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTwnEm1IYyoj",
+        "id": "37i9dQZF1DWTwnEm1IYyoj",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003a259e07a24c5b6ccf60de2d3",
+            "width": null
+          }
+        ],
+        "name": "Soft Pop Hits",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxNzA0NTE1MywwMDAwMDA3MTAwMDAwMTc4N2Y2NmU3ZjgwMDAwMDE3ODdmNTY0NTcy",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTwnEm1IYyoj/tracks",
+          "total": 241
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWTwnEm1IYyoj"
+      },
+      {
+        "collaborative": false,
+        "description": "Get pumped, feel the vibe and get ready for the swell coming in.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX6aqIZNmXBGU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6aqIZNmXBGU",
+        "id": "37i9dQZF1DX6aqIZNmXBGU",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003a0dda4037acff8c0c172decd",
+            "width": null
+          }
+        ],
+        "name": "Sun & Surf",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM0NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6aqIZNmXBGU/tracks",
+          "total": 60
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX6aqIZNmXBGU"
+      },
+      {
+        "collaborative": false,
+        "description": "Billie Eilish is on top of the Hottest 50!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M",
+        "id": "37i9dQZF1DXcBWIGoYBM5M",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000398acdce7d57c6242e76d33a4",
+            "width": null
+          }
+        ],
+        "name": "Today's Top Hits",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTc1NTMzMSwwMDAwMDRhMDAwMDAwMTc5MjBmMGVmNTQwMDAwMDE3OTIwMGRkZWM0",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M"
+      },
+      {
+        "collaborative": false,
+        "description": "Have a quiet morning with this mix of something familiar and something new.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWzVPEmatsUB"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWzVPEmatsUB",
+        "id": "37i9dQZF1DWWzVPEmatsUB",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000394d851cc78e04406e373f156",
+            "width": null
+          }
+        ],
+        "name": "Mellow Morning",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM0OCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWzVPEmatsUB/tracks",
+          "total": 70
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWWzVPEmatsUB"
+      },
+      {
+        "collaborative": false,
+        "description": "Real rap music from the golden era.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX186v583rmzp"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX186v583rmzp",
+        "id": "37i9dQZF1DX186v583rmzp",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000035f4b625f7dfcb4733381bac3",
+            "width": null
+          }
+        ],
+        "name": "I Love My '90s Hip-Hop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM1NiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX186v583rmzp/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX186v583rmzp"
+      },
+      {
+        "collaborative": false,
+        "description": "Slow down with some calming keys.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1s9knjP51Oa"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1s9knjP51Oa",
+        "id": "37i9dQZF1DX1s9knjP51Oa",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003ec69f78942a99131ab104df5",
+            "width": null
+          }
+        ],
+        "name": "Calm Vibes",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTAxMzE5NCwwMDAwMDA3NzAwMDAwMTc4ZjRiNGQyN2QwMDAwMDE2ZDE1NDk3NWNm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1s9knjP51Oa/tracks",
+          "total": 293
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX1s9knjP51Oa"
+      },
+      {
+        "collaborative": false,
+        "description": "The best in modern indie. Cover: Phoebe Bridgers",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2Nc3B70tvx0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2Nc3B70tvx0",
+        "id": "37i9dQZF1DX2Nc3B70tvx0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003f72ca365dddfbd9bfe385e73",
+            "width": null
+          }
+        ],
+        "name": "Ultimate Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM0NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2Nc3B70tvx0/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX2Nc3B70tvx0"
+      },
+      {
+        "collaborative": false,
+        "description": "Rise & shine with the perfect blend of folk and acoustic.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdd3gw5QVjt9"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdd3gw5QVjt9",
+        "id": "37i9dQZF1DXdd3gw5QVjt9",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000311f28482d6734f39e99f938f",
+            "width": null
+          }
+        ],
+        "name": "Morning Acoustic",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM0NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdd3gw5QVjt9/tracks",
+          "total": 90
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdd3gw5QVjt9"
+      },
+      {
+        "collaborative": false,
+        "description": "Time to put on your best dancing shoes - the jukebox is on!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYE5MI4mMuii"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYE5MI4mMuii",
+        "id": "37i9dQZF1DWYE5MI4mMuii",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000032db28b1eacaea13a642beb80",
+            "width": null
+          }
+        ],
+        "name": "Rock & Roll Party",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxOTg1NzM1NiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYE5MI4mMuii/tracks",
+          "total": 78
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWYE5MI4mMuii"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 12
+  }
+}
