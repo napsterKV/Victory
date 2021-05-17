@@ -22,8 +22,10 @@ function newReleasesLoaded(data) {
   for (const releas_item of data.albums.items) {
     const img = document.createElement('img');
     img.src = releas_item.images[1].url;
+
     const name = document.createElement('h4');
     name.textContent = releas_item.name;
+    
     const container = document.createElement('div');
     container.appendChild(img);
     container.appendChild(name);
