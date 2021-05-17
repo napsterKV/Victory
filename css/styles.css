@@ -6,9 +6,14 @@
 body {
   width: auto;
 }
-.container {
+/* .container {
   max-width: 758px;
   border: 1px solid crimson;
+} */
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
 }
 header {
   padding-top: 35px;
@@ -80,3 +85,22 @@ header {
   z-index: 1000;
 }
  */
+
+.container_ * {
+}
+
+.section {
+  padding: 22px;
+  margin-bottom: 22px;
+  bottom: 1px solid var(--color-border);
+  border-radius: 10px;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.playlists_arr {
+  height: 100px;
+}
