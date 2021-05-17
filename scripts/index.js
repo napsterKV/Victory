@@ -33,23 +33,9 @@ function newReleasesLoaded(data) {
 }
 
 function playlistsLoaded(data) {
-  const imageUrl = data.playlists.items[0].images[0].url;
 
   const playlistsElem = document.querySelector("#featuredPlaylists");
-  // console.log(playlistsElem);
-  // playlistsElem.textContent = "Hi, world!";
-  const playlistItemElem = document.createElement("li");
-  // playlistItemElem.textContent = "hi!";
-  // playlistItemElem.style.fontSize = "24px";
 
-  const playlistItemImageElem = document.createElement("img");
-  playlistItemImageElem.src = imageUrl;
-
-  playlistItemElem.appendChild(playlistItemImageElem);
-
-  playlistsElem.appendChild(playlistItemElem);
-
-  const playlists = document.querySelector("div.new_playlists");
   const playlists_arr = [];
 
   for (const playlist_item of data.playlists.items) {

@@ -1,3 +1,5 @@
+/* FONTS: 
+font-family: 'Lato', sans-serif; */
 * {
   margin: 0 auto;
   padding: 0;
@@ -8,18 +10,23 @@ body {
 }
 /* .container {
   max-width: 758px;
-  border: 1px solid crimson;
 } */
 .container {
   max-width: 768px;
   width: 100%;
   margin: 0 auto;
+  border: 1px solid crimson;
 }
 header {
-  padding-top: 35px;
+  padding-top: 23px;
 }
 .nav {
   display: flex;
+  align-items: center;
+  /* vertical-align: middle; */
+}
+.nav > div {
+  vertical-align: middle;
 }
 .menu {
   display: flex;
@@ -36,6 +43,7 @@ header {
   color: rgb(124, 141, 181);
   transition: 0.3s linear all;
   text-decoration: none;
+  margin-right: 5px;
 }
 .menu-item_link,
 .developer-box {
@@ -49,6 +57,7 @@ header {
 }
 .developer-box {
   display: flex;
+  align-items: center;
 }
 .developer {
   font-weight: bold;
@@ -58,6 +67,11 @@ header {
   color: rgb(45, 45, 45);
 }
 .developer_photo {
+  border-width: 1px;
+  border-color: rgb(230, 239, 251);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
 }
 /* .Browse {
   font-size: 16px;
@@ -70,7 +84,17 @@ header {
   top: 3103.9px;
   z-index: 993;
 }
-
+.John_Doe {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(45, 45, 45);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 5660.299px;
+  top: 3106.9px;
+  z-index: 999;
+}
 .Ellipse_4 {
   border-width: 1px;
   border-color: rgb(230, 239, 251);
@@ -84,23 +108,26 @@ header {
   height: 31px;
   z-index: 1000;
 }
+.Ellipse_4 {
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  z-index: 1000;
+}
  */
 
-.container_ * {
-}
-
+/* .container_ * {
+} */
 .section {
   padding: 22px;
   margin-bottom: 22px;
   bottom: 1px solid var(--color-border);
   border-radius: 10px;
 }
-
 .section__title {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 .playlists_arr {
   height: 100px;
 }
