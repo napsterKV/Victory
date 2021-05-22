@@ -38,7 +38,7 @@ header {
 .menu-item_link,
 .developer {
   font-size: 16px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   color: rgb(124, 141, 181);
   transition: 0.3s linear all;
@@ -114,20 +114,7 @@ header {
   height: 31px;
   z-index: 1000;
 }
- */
+*/
 
 /* .container_ * {
 } */
-.section {
-  padding: 22px;
-  margin-bottom: 22px;
-  bottom: 1px solid var(--color-border);
-  border-radius: 10px;
-}
-.section__title {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.playlists_arr {
-  height: 100px;
-}
