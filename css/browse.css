@@ -10,11 +10,13 @@
 .new_releases {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 12px;
+  column-gap: 21px;
+  /*  column-gap = 10px*/
   row-gap: 18px;
 }
 .release_img {
   max-width: 100%;
+  /* min-height: auto; */
 }
 .section__title {
   margin-top: 0;
@@ -26,10 +28,10 @@
 /* new releases */
 .new-releases_and_title_new-releases {
   max-width: 712px;
-  margin: 0 auto;
+  margin: 0 auto 58px;
 }
 .new_releases {
-  max-width: 710px;
+  max-width: 712px;
 }
 .title_and_ellipse_new-releases,
 .title_and_ellipse_featured_playlists {
@@ -50,6 +52,9 @@
   font-weight: bold;
   margin-left: 10px;
 }
+.title_new-releases {
+  margin-bottom: 12px;
+}
 /* .Vector {
   background-color: rgb(248, 153, 28);
   position: absolute;
@@ -66,7 +71,7 @@
   height: 16px;
   z-index: 945;
 }
-/////////////////////////////////////////
+
 .Rectangle_5 {
   border-width: 1px;
   border-color: rgb(230, 239, 251);
@@ -80,8 +85,37 @@
   height: 203px;
   z-index: 893;
 }
-*/
+.Rectangle_6 {
+  
+  position: absolute;
+  left: 5226px;
+  top: 3227px;
+  
+  z-index: 909;
+}
 
+*/
+.release {
+  border-width: 1px;
+  border-color: rgb(131, 185, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 161px;
+  height: auto;
+}
+.release_img {
+  border-radius: 15px;
+  width: 133px;
+  height: 125px;
+  margin: 15px;
+}
+.release_name {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: rgb(45, 45, 45);
+  font-weight: bold;
+}
 .ellipse_2 {
   background-color: rgb(248, 153, 28);
   width: 18px;

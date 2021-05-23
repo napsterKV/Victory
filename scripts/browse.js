@@ -24,6 +24,7 @@ function newReleasesLoaded(data) {
     img.className = 'release_img';
     img.src = releas_item.images[1].url;
     const name = document.createElement("h4");
+    name.className = 'release_name';
     name.textContent = releas_item.name;
     const container = document.createElement("div");
     container.className = 'release';
