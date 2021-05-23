@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Audio-catalog (analog)</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Audio catalog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS: 
+    font-family: 'Lato', sans-serif; -->
+    <link rel="stylesheet" href="./css/browse.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
@@ -25,26 +33,60 @@
               <a href="#" class="menu-item_link">Profile</a>
             </li>
           </ul>
+          <div class="developer-box">
+            <p class="developer">Username</p>
+            <img
+              src="./images/Ellipses/Ellipse 4.jpg"
+              alt=""
+              class="developer_photo"
+            />
+          </div>
         </nav>
       </div>
     </header>
     <main class="main">
       <div class="container">
-        <div class="new_releases"></div>
-        <!-- <div class="release">
-        <img src="#" alt="" class="release_img">
-        <h4 class="release_name">Element 1</h4>
-        <p class="release_artist"></p>
-      </div> -->
+        <div class="new-releases_and_title_new-releases">
+          <div class="title_and_ellipse_new-releases">
+            <img src="./images/Ellipses/Vector.jpg" alt="" class="ellipse" />
+            <h2 class="title_new-releases">New Releases</h2>
+          </div>
+          <div class="new_releases"></div>
+          <!-- <div class="release">
+          <img src="#" alt="" class="release_img">
+          <h4 class="release_name">Element 1</h4>
+          <p class="release_artist"></p> -->
+          <!-- featuredPlaylists -->
+          <!-- <div class="container">
+          <div class="featured_playlists">
+          <div class="playlist">
+            <img src="#" alt="" class="playlist_img" />
+            <h4 class="_name">Featured Playlists</h4>
+            <p class="playlist_artist"></p>
+          </div>
+          </div>
+          </div> -->
+        </div>
+        <section class="section">
+          <div class="title_and_ellipse_featured_playlists">
+            <img
+              src="./images/Ellipses/Vector(2).jpg"
+              alt=""
+              class="ellipse_2"
+            />
+            <h2 class="section_title section__title_playlists">
+              Featured Playlists
+            </h2>
+          </div>
+          <ul id="featuredPlaylists" class="playlists"></ul>
+        </section>
       </div>
     </main>
-    <footer class="footer">
-      <div class="container"></div>
-    </footer>
 
     <!-- <script src="./js/"></script> -->
-    <script src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/browse.js"></script>
   </body>
 </html>
 
-<!-- 343434 -->
+<!-- bhfhbvb -->

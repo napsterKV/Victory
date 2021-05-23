@@ -1,0 +1,90 @@
+.main {
+  margin-top: 47px;
+}
+.section {
+  padding: 22px;
+  margin-bottom: 22px;
+  bottom: 1px solid var(--color-border);
+  border-radius: 10px;
+}
+.new_releases {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 12px;
+  row-gap: 18px;
+}
+.release_img {
+  max-width: 100%;
+}
+.section__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.playlists_arr {
+  height: 100px;
+}
+/* new releases */
+.new-releases_and_title_new-releases {
+  max-width: 712px;
+  margin: 0 auto;
+}
+.new_releases {
+  max-width: 710px;
+}
+.title_and_ellipse_new-releases,
+.title_and_ellipse_featured_playlists {
+  display: inline-flex;
+}
+.ellipse {
+  background-color: rgb(248, 153, 28);
+  width: 14px;
+  height: 18px;
+  margin-left: 0;
+}
+/* Featured Playlists */
+.title_new-releases,
+.section__title_playlists {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: rgb(45, 45, 45);
+  font-weight: bold;
+  margin-left: 10px;
+}
+/* .Vector {
+  background-color: rgb(248, 153, 28);
+  position: absolute;
+  left: 5033px;
+  top: 3181px;
+  z-index: 843;
+}
+.Vector {
+  background-color: rgb(248, 153, 28);
+  position: absolute;
+  left: 5031px;
+  top: 3499px;
+  width: 18px;
+  height: 16px;
+  z-index: 945;
+}
+/////////////////////////////////////////
+.Rectangle_5 {
+  border-width: 1px;
+  border-color: rgb(230, 239, 251);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 5028px;
+  top: 3212px;
+  width: 161px;
+  height: 203px;
+  z-index: 893;
+}
+*/
+
+.ellipse_2 {
+  background-color: rgb(248, 153, 28);
+  width: 18px;
+  height: 16px;
+  margin-left: 0;
+}
