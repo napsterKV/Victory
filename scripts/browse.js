@@ -28,8 +28,13 @@ function newReleasesLoaded(data) {
     name.textContent = releas_item.name;
     const container = document.createElement("div");
     container.className = 'release';
+    const releas_artist = document.createElement('p')
+    releas_artist.textContent = releas_item.artists[0].name;
+    releas_artist.className = 'releas_artist';
+      
     container.appendChild(img);
     container.appendChild(name);
+    container.appendChild(releas_artist);
     releases_arr.push(container);
   }
   releases.append(...releases_arr);
