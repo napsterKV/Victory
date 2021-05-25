@@ -1,0 +1,17 @@
+/* *{} */
+.div_search-input {
+  display: flex;
+  text-align: center;
+}
+.search-input {
+  width: 759px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #bdc6d1;
+  text-align: center;
+  box-sizing: border-box;
+}
+.btn_of_search-input {
+}
+.img_of_btn-search {
+}
