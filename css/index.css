@@ -1,10 +1,15 @@
 /* FONTS: 
 font-family: 'Lato', sans-serif; */
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   width: auto;
 }
@@ -38,7 +43,6 @@ header {
 .menu-item_link,
 .developer {
   font-size: 16px;
-  font-family: "Lato", sans-serif;
   font-weight: bold;
   color: rgb(124, 141, 181);
   transition: 0.3s linear all;
@@ -48,6 +52,9 @@ header {
 .menu-item_link,
 .developer-box {
   margin-right: 0;
+}
+.developer-box {
+  margin-left: auto;
 }
 .item_of_nav:not(:last-child) {
   margin-right: 20px;
