@@ -4,7 +4,6 @@
 .section {
   padding: 22px;
   margin-bottom: 22px;
-  bottom: 1px solid var(--color-border);
   border-radius: 10px;
 }
 .new_releases {
@@ -138,18 +137,73 @@
 }
 
 .container_ {
-  min-width: 768px;
+  max-width: 768px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 384px) {
+  .section {
+    padding: 22px;
+    margin-bottom: 22px;
+    bottom: 1px solid var(--color-border);
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  .section__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .playlist-style {
+    width: 40px;
+  }
+
+  .playlist-text {
+    margin-left: 17px;
+    margin-bottom: 5px;
+
+    max-width: 204px;
+  }
+
+  .playlist-container {
+    display: flex;
+    padding: 17px;
+  }
+}
+
+@media only screen and (min-width: 385px) and (max-width: 708px) {
+  .section {
+    padding: 22px;
+    margin-bottom: 22px;
+    bottom: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+  .section__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .playlist-style {
+    width: 40px;
+  }
+
+  .playlist-text {
+    max-width: 330px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+  }
+
+  .playlist-container {
+    display: flex;
+    padding: 17px;
+  }
 }
 
 .section {
   padding: 22px;
   margin-bottom: 22px;
-  bottom: 1px solid var(--color-border);
-  border-radius: 10px;
 }
-
 .section__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -161,7 +215,9 @@
 
 .playlist-text {
   margin-left: 17px;
+
   margin-bottom: 5px;
+  max-width: 330px;
 }
 
 .playlist-container {
