@@ -185,3 +185,26 @@
   line-height: 17px;
   color: #7c8db5;
 }
+
+/* @media (max-width: 548px) {
+  .nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.dimmer {
+  position: fixed;
+} */
+
+/* @media (max-width: 768px) {
+  .new-releases {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 548px) {
+  .new-releases {
+    grid-template-columns: repeat(1, 1fr);
+  } */

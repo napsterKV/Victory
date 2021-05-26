@@ -22,21 +22,29 @@
     <div class="container">
       <header class="header">
         <!-- <div class="container"> -->
+        <div class="dimmer"></div>
         <nav class="nav">
-          <ul class="menu">
-            <li class="item_of_nav">
-              <a href="./index.html" class="menu-item_link">Browse</a>
-            </li>
-            <li class="item_of_nav">
-              <a href="./search.html" class="menu-item_link">Search</a>
-            </li>
-            <li class="item_of_nav">
-              <a href="#" class="menu-item_link">Library</a>
-            </li>
-            <li class="item_of_nav">
-              <a href="#" class="menu-item_link">Profile</a>
-            </li>
-          </ul>
+          <button type="button" class="nav__toggler" id="navToggler">
+            <img src="images/icons/nav_menu.svg" alt="Open nav menu" />
+          </button>
+
+          <!-- <div class="dimmer dimmer_active"></div> -->
+          <div class="nav__menu">
+            <ul class="menu">
+              <li class="item_of_nav">
+                <a href="./index.html" class="menu-item_link">Browse</a>
+              </li>
+              <li class="item_of_nav">
+                <a href="./search.html" class="menu-item_link">Search</a>
+              </li>
+              <li class="item_of_nav">
+                <a href="#" class="menu-item_link">Library</a>
+              </li>
+              <li class="item_of_nav">
+                <a href="#" class="menu-item_link">Profile</a>
+              </li>
+            </ul>
+          </div>
           <div class="developer-box">
             <p class="developer">Username</p>
             <img
