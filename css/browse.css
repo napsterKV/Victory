@@ -13,6 +13,7 @@
   column-gap: 21px;
   /*  column-gap = 10px*/
   row-gap: 18px;
+  border: 1px solid crimson;
 }
 .release_img {
   max-width: 100%;
@@ -27,8 +28,10 @@
 }
 /* new releases */
 .new-releases_and_title_new-releases {
-  max-width: 712px;
+  max-width: 760px;
   margin: 0 auto 58px;
+  /* margin: 0 auto; */
+  border: 1px #e6effb;
 }
 .new_releases {
   max-width: 712px;
@@ -185,3 +188,41 @@
   line-height: 17px;
   color: #7c8db5;
 }
+
+/* ///////////////////////media/////////////////////// */
+/* ///////////////////////tablet/////////////////////// */
+
+@media (max-width: 708px) {
+  .container {
+    max-width: 708px;
+    /* column-gap: 21px; */
+    /*  column-gap = 10px*/
+    /* row-gap: 18px; */
+  }
+  .title_and_ellipse_new-releases {
+    margin-left: 25.64px;
+  }
+  .new_releases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 26px;
+  }
+  .release {
+    height: auto;
+    width: 100%;
+    column-gap: 26px;
+  }
+  .release_img {
+    width: 168.9px;
+    height: 170.73px;
+    margin: 16.49px 16.05px 9.29px;
+  }
+  /* .release_name,
+  .releas_artist {
+  } */
+}
+/* @media screen and ()and() {
+  
+} */
+
+/* ///////////////////////mobile/////////////////////// */
