@@ -24,14 +24,14 @@ function newReleasesLoaded(data) {
     img.className = "release_img";
     img.src = releas_item.images[1].url;
     const name = document.createElement("h4");
-    name.className = 'release_name';
+    name.className = "release_name";
     name.textContent = releas_item.name;
     const container = document.createElement("div");
-    container.className = 'release';
-    const releas_artist = document.createElement('p')
+    container.className = "release";
+    const releas_artist = document.createElement("p");
     releas_artist.textContent = releas_item.artists[0].name;
-    releas_artist.className = 'releas_artist';
-      
+    releas_artist.className = "releas_artist";
+
     container.appendChild(img);
     container.appendChild(name);
     container.appendChild(releas_artist);
@@ -67,3 +67,17 @@ function playlistsLoaded(data) {
   }
   playlistsElem.append(...playlists_arr);
 }
+
+// const btn = document.querySelector("#navToggler");
+// const navMenu = document.querySelector("nav__menu");
+// const dimmer = document.querySelector("dimmer");
+
+// btn.addEventListener("click", () => {
+//   navMenu.classList.toggler("nav__menu_open");
+//   dimmer.classList.toggler("dimmer_active");
+// });
+
+// dimmer.addEventListener("click", () => {
+//   navMenu.classList.remove("nav__menu_open");
+//   dimmer.classList.remove("dimmer_active");
+// });
