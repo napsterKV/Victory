@@ -20,6 +20,7 @@ body {
   max-width: 760px;
   width: 100%;
   margin: 0 auto;
+  border: 1px solid crimson;
 }
 header {
   padding-top: 23px;
@@ -83,7 +84,9 @@ header {
     display: block;
   }
 } */
-
+.nav__menu {
+  display: inline-flex;
+}
 .menu {
   display: flex;
   margin-left: 0;
@@ -177,8 +180,9 @@ header {
 /* .container_ * {
 } */
 
-@media (max-width: 768px) {
-  .new-releases {
-    grid-template-columns: repeat(2, 1fr);
+/* ///////////// */
+@media (max-width: 540px) {
+  .nav__menu {
+    display: none;
   }
 }

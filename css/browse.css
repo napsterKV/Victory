@@ -33,7 +33,9 @@
   border: 1px #e6effb;
 }
 .new_releases {
-  max-width: 712px;
+  /* max-width: 712px; */
+  border-radius: 10px;
+  border: 1px solid #e6effb;
 }
 .title_and_ellipse_new-releases,
 .title_and_ellipse_featured_playlists {
@@ -99,35 +101,43 @@
 */
 .release {
   border-width: 1px;
-  border-color: rgb(131, 185, 255);
+  border-color: #e6effb;
   border-style: solid;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  width: 161px;
   height: auto;
+  padding: 15px;
+}
+.release_block {
+  /* display: block; */
+  /* height: 125px; */
+  /* height: auto; */
+  border-radius: 15px;
+  overflow: hidden;
 }
 .release_img {
-  border-radius: 15px;
-  width: 133px;
-  height: 125px;
-  margin: 15px;
+  display: block;
+  /* width: 100%; */
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  object-position: center;
 }
 .release_name {
   font-size: 15px;
-  font-family: "Lato", sans-serif;
   color: rgb(45, 45, 45);
   font-weight: bold;
 }
 .releas_artist {
   font-size: 12px;
-  font-family: "Lato", sans-serif;
   color: rgb(124, 141, 181);
   font-weight: 900;
   margin-top: 10px;
 }
 .release_name,
 .releas_artist {
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .ellipse_2 {
   background-color: rgb(248, 153, 28);
@@ -199,7 +209,6 @@
     padding: 17px;
   }
 }
-
 .section {
   padding: 22px;
   margin-bottom: 22px;
@@ -244,34 +253,17 @@
   line-height: 17px;
   color: #7c8db5;
 }
-
 /* ///////////////////////media/////////////////////// */
 /* ///////////////////////tablet/////////////////////// */
 
 @media (max-width: 708px) {
-  .container {
-    max-width: 708px;
-    /* column-gap: 21px; */
-    /*  column-gap = 10px*/
-    /* row-gap: 18px; */
-  }
   .title_and_ellipse_new-releases {
     margin-left: 25.64px;
   }
   .new_releases {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 26px;
   }
   .release {
-    height: auto;
-    width: 100%;
-    column-gap: 26px;
-  }
-  .release_img {
-    width: 168.9px;
-    height: 170.73px;
-    margin: 16.49px 16.05px 9.29px;
   }
   /* .release_name,
   .releas_artist {
@@ -282,6 +274,8 @@
 } */
 
 /* ///////////////////////mobile/////////////////////// */
-/* @media screen {
-  
-} */
+@media (max-width: 540px) {
+  .new_releases {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
