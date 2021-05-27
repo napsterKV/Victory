@@ -20,9 +20,12 @@ function newReleasesLoaded(data) {
   const releases = document.querySelector("div.new_releases");
   const releases_arr = [];
   for (const releas_item of data.albums.items) {
+    const block_img = document.createElement('div');
+    block_img.className = "release_block";
     const img = document.createElement("img");
     img.className = "release_img";
     img.src = releas_item.images[1].url;
+    block_img.appendChild(img)
     const name = document.createElement("h4");
     name.className = "release_name";
     name.textContent = releas_item.name;
@@ -32,7 +35,7 @@ function newReleasesLoaded(data) {
     releas_artist.textContent = releas_item.artists[0].name;
     releas_artist.className = "releas_artist";
 
-    container.appendChild(img);
+    container.appendChild(block_img);
     container.appendChild(name);
     container.appendChild(releas_artist);
     releases_arr.push(container);
