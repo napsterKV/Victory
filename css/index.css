@@ -25,7 +25,6 @@ header {
   padding-top: 23px;
 }
 .nav {
-  display: flex;
   align-items: center;
   /* vertical-align: middle; */
 }
@@ -86,11 +85,18 @@ header {
 
 .menu {
   display: flex;
-  margin-left: 0;
+}
+.nav__menu {
+  display: flex;
 }
 .item_of_nav {
   list-style: none;
 }
+
+.item_of_nav:not(:last-child) {
+  margin-right: 22px;
+}
+
 .menu-item_link,
 .developer {
   font-size: 16px;
@@ -176,9 +182,97 @@ header {
 
 /* .container_ * {
 } */
+.nav__toggler {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .new-releases {
     grid-template-columns: repeat(2, 1fr);
   }
+  .nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav__toggler {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .nav__menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 11px 37px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .nav__menu_open {
+    display: flex;
+  }
+  .item_of_nav:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 22px;
+  }
+  .dimmer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(45, 45, 45, 0.35);
+    display: none;
+  }
+  .dimmer_active {
+    display: block;
+  }
 }
+
+/* .nav__toggler {
+  display: none;
+} */
+
+/* .nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* @media (max-width: 540px) {
+  .nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav__toggler {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .nav__menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 11px 37px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .nav__menu_open {
+    display: flex;
+  }
+  .item_of_nav:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 22px;
+  }
+} */
