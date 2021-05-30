@@ -283,8 +283,6 @@
 .nav__toggler {
   display: none;
 }
-
-/* ///////////// */
 @media (max-width: 540px) {
   .nav__menu {
     display: none;

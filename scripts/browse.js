@@ -20,12 +20,12 @@ function newReleasesLoaded(data) {
   const releases = document.querySelector("div.new_releases");
   const releases_arr = [];
   for (const releas_item of data.albums.items) {
-    const block_img = document.createElement('div');
+    const block_img = document.createElement("div");
     block_img.className = "release_block";
     const img = document.createElement("img");
     img.className = "release_img";
     img.src = releas_item.images[1].url;
-    block_img.appendChild(img)
+    block_img.appendChild(img);
     const name = document.createElement("h4");
     name.className = "release_name";
     name.textContent = releas_item.name;
@@ -84,3 +84,23 @@ function playlistsLoaded(data) {
 //   navMenu.classList.remove("nav__menu_open");
 //   dimmer.classList.remove("dimmer_active");
 // });
+
+const btn = document.querySelector("#navToggler");
+const navMenu = document.querySelector(".nav__menu");
+const dimmer = document.querySelector(".dimmer");
+
+btn.addEventListener("click", () => {
+  navMenu.classList.toggle("nav__menu_open");
+  dimmer.classList.toggle("dimmer_active");
+});
+
+if (navMenu.classList.contains("nav__menu_open")) {
+  dimmer.classList.add("dimmer_active");
+} else {
+  dimmer.classList.remove("dimmer_active");
+}
+
+dimmer.addEventListener("click", () => {
+  navMenu.classList.remove("nav__menu_open");
+  dimmer.classList.remove("dimmer_active");
+});

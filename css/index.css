@@ -27,7 +27,7 @@ header {
 }
 .nav {
   align-items: center;
-  /* vertical-align: middle; */
+  vertical-align: middle;
 }
 .nav > div {
   vertical-align: middle;
