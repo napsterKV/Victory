@@ -294,6 +294,7 @@
   }
 
   .nav__toggler {
+    margin-right: 10px;
     display: block;
     border: none;
     background: none;
