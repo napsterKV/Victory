@@ -8,6 +8,7 @@
 }
 .new_releases {
   display: grid;
+  grid-auto-rows: 205px;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 21px;
   /*  column-gap = 10px*/
@@ -220,6 +221,7 @@
 
 .playlist-style {
   width: 40px;
+  height: 40px;
 }
 
 .playlist-text {
