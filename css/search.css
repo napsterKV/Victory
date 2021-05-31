@@ -190,17 +190,19 @@
 }
 @media (max-width: 708px) {
   .type-list {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 540px) {
   .type-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 320px) {
   .type-list {
+    grid-template-columns: repeat(1, 1fr);
   }
   .type {
-    margin: 5px auto;
   }
 }
