@@ -135,6 +135,8 @@ header {
   color: rgb(45, 45, 45);
 }
 .developer_photo {
+  width: 30px;
+  height: 30px;
   border-width: 1px;
   border-color: rgb(230, 239, 251);
   border-style: solid;

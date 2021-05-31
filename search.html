@@ -17,7 +17,39 @@
   <body>
     <div class="container">
       <header class="header">
+        <div class="dimmer"></div>
         <nav class="nav">
+          <button type="button" class="nav__toggler" id="navToggler">
+            <img src="images/icons/nav_menu.svg" alt="Open nav menu" />
+          </button>
+
+          <!-- <div class="dimmer dimmer_active"></div> -->
+          <div class="nav__menu">
+            <ul class="menu">
+              <li class="item_of_nav nav__item_active">
+                <a href="./index.html" class="menu-item_link">Browse</a>
+              </li>
+              <li class="item_of_nav">
+                <a href="./search.html" class="menu-item_link">Search</a>
+              </li>
+              <li class="item_of_nav">
+                <a href="#" class="menu-item_link">Library</a>
+              </li>
+              <li class="item_of_nav nav__item_user">
+                <a href="#" class="menu-item_link">Profile</a>
+              </li>
+            </ul>
+            <div class="developer-box">
+              <p class="developer">Victory team</p>
+              <img
+                src="./images/Ellipses/victory.jpg"
+                alt=""
+                class="developer_photo"
+              />
+            </div>
+          </div>
+        </nav>
+        <!-- <nav class="nav">
           <ul class="menu">
             <li class="item_of_nav">
               <a href="./index.html" class="menu-item_link">Browse</a>
@@ -40,7 +72,7 @@
               class="developer_photo"
             />
           </div>
-        </nav>
+        </nav> -->
         <!-- <link rel="stylesheet" href="./search.html" /> -->
         <!-- </div> -->
       </header>
@@ -56,42 +88,91 @@
               class="img_of_btn-search circle"
             />
             <img
-              src="./images/Ellipses/search/Line 4.png"
-              alt=""
-              class="img_of_btn-search line"
+            src="./images/Ellipses/search/Line 4.png"
+            alt=""
+            class="img_of_btn-search line"
             /> -->
           </button>
-          <!-- <div class="type-list">
-            <div class="type">
-              <button class="btn" type="button">
-                <span class="type__text">Album</span>
-                <div class="type_overlay">
-                  <img
-                    src="./images/icons/type-check.svg"
-                    alt="Selected"
-                    class="type__check-icon"
-                  />
-                </div>
-              </button>
-            </div>
-            <div class="type">
-              <button class="btn" type="button">
-                <span class="type__text">Artist</span>
-                <div class="type_overlay">
-                  <img
-                    src="./images/icons/type-check.svg"
-                    alt="Selected"
-                    class="type__check-icon"
-                  />
-                </div>
-              </button>
-            </div>
-          </div> -->
+        </div>
+        <div class="type-list">
+          <div class="type">
+            <button type="button" class="type__btn">
+              <span class="type__text">Album</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
+          <div class="type">
+            <button type="button" class="type__btn">
+              <span class="type__text">Artist</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
+          <div class="type">
+            <button type="button" class="type__btn other_btn">
+              <span class="type__text">Playlist</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
+          <div class="type">
+            <button type="button" class="type__btn">
+              <span class="type__text">Track</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
+          <div class="type">
+            <button type="button" class="type__btn">
+              <span class="type__text">Show</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
+          <div class="type">
+            <button type="button" class="type__btn">
+              <span class="type__text">Episode</span>
+              <div class="type__overlay">
+                <img
+                  src="./images/icons/type-check.svg"
+                  alt="Selected"
+                  class="type__check-icon"
+                />
+              </div>
+            </button>
+          </div>
         </div>
       </main>
     </div>
 
-    <!-- <script src="./scripts/index.js"></script> -->
+    <script src="./scripts/browse.js"></script>
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/search.js"></script>
   </body>
 </html>
