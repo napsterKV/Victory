@@ -26,9 +26,11 @@ function newReleasesLoaded(data) {
     img.className = "release_img";
     img.src = releas_item.images[1].url;
     block_img.appendChild(img);
-    const name = document.createElement("h4");
+    const name = document.createElement("a");
     name.className = "release_name";
     name.textContent = releas_item.name;
+    name.href = releas_item.external_urls.spotify;
+    name.target='__blank'
     const container = document.createElement("div");
     container.className = "release";
     const releas_artist = document.createElement("p");
